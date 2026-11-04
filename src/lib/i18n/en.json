@@ -1,0 +1,127 @@
+{
+  "appName": "PulseTask",
+  "appTagline": "Clear your mind. Organize your work with effortless focus.",
+  "nav": {
+    "inbox": "Inbox",
+    "today": "Today",
+    "upcoming": "Upcoming",
+    "projects": "Projects",
+    "focus": "Focus Mode",
+    "settings": "Settings",
+    "quickAdd": "Add Task",
+    "search": "Search tasks (Cmd+K)...",
+    "logOut": "Log Out"
+  },
+  "priorities": {
+    "p1": "Priority 1 (Urgent)",
+    "p2": "Priority 2 (High)",
+    "p3": "Priority 3 (Medium)",
+    "p4": "Priority 4 (Normal)"
+  },
+  "tasks": {
+    "titlePlaceholder": "e.g. Deliver client prototype tomorrow at 4pm p1",
+    "descriptionPlaceholder": "Description or notes (Markdown supported)...",
+    "addSubtask": "Add subtask",
+    "dueDate": "Due date",
+    "selectProject": "Project",
+    "colorTag": "Color Tag",
+    "save": "Add Task",
+    "update": "Save Changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "completed": "Completed",
+    "emptyInbox": "Your inbox is empty. Peace of mind achieved!",
+    "emptyToday": "No tasks due today. Enjoy your day or plan ahead!",
+    "emptyUpcoming": "No upcoming tasks scheduled for this period.",
+    "subtasks": "Subtasks",
+    "taskDetails": "Task Details",
+    "recurring": {
+      "none": "Do not repeat",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    }
+  },
+  "focus": {
+    "title": "Pomodoro Focus Mode",
+    "subtitle": "Select a task and focus deeply for 25 minutes without distraction.",
+    "start": "Start Focus",
+    "pause": "Pause",
+    "reset": "Reset Timer",
+    "selectTask": "Select task to work on...",
+    "sessionCompleted": "Focus session completed! Great job.",
+    "takeBreak": "Take a 5-minute break.",
+    "completedSessions": "Today's Completed Sessions"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your profile, theme, and language preferences.",
+    "language": "Language",
+    "persian": "فارسی (Persian / RTL)",
+    "english": "English (LTR)",
+    "theme": "Appearance Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System Default",
+    "notifications": "Browser Notifications",
+    "enableNotifications": "Enable notifications for task deadlines & Pomodoro alerts",
+    "saveChanges": "Save Settings",
+    "savedSuccess": "Settings updated successfully."
+  },
+  "landing": {
+    "heroTitle": "The simplest, fastest way to organize your work.",
+    "heroSubtitle": "PulseTask strips away clutter so you can focus on getting things done. Intuitive natural language parsing, interactive calendar, built-in Pomodoro, and seamless Persian & English support.",
+    "getStarted": "Get Started Free",
+    "signIn": "Sign In",
+    "dashboard": "Open PulseTask",
+    "featuresTitle": "Designed for clarity and momentum",
+    "feature1Title": "Natural Language Input",
+    "feature1Desc": "Type 'Design wireframes tomorrow at 5pm p1' and PulseTask automatically sets your dates, times, and priorities.",
+    "feature2Title": "Multi-Language & Jalali Calendar",
+    "feature2Desc": "Full bidirectional RTL & LTR support with Shamsi (Jalali) and Gregorian calendars and Vazirmatn typography.",
+    "feature3Title": "Pomodoro Focus Timer",
+    "feature3Desc": "Connect your tasks to 25-minute deep work intervals with audio alerts and desktop notifications.",
+    "pricingTitle": "Simple, transparent pricing",
+    "freeTier": "Free Forever",
+    "freePrice": "$0",
+    "freeDesc": "Everything you need to organize your personal workflow.",
+    "proTier": "Pro",
+    "proPrice": "$4",
+    "proDesc": "Advanced recurring schedules, Pomodoro analytics, and unlimited projects.",
+    "ctaTitle": "Ready to bring calm to your daily schedule?",
+    "ctaButton": "Start Using PulseTask Today"
+  },
+  "auth": {
+    "loginTitle": "Welcome back to PulseTask",
+    "loginSubtitle": "Enter your email and password to access your tasks.",
+    "signupTitle": "Create your PulseTask account",
+    "signupSubtitle": "Start organizing your tasks in under 30 seconds.",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "nameLabel": "Full Name",
+    "submitLogin": "Sign In",
+    "submitSignup": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "onboarding": {
+    "projects": {
+      "getting_started": "🚀 Getting Started with PulseTask",
+      "personal": "💡 Personal Life & Errands",
+      "halloween": "🎃 Halloween Preparation"
+    },
+    "tasks": {
+      "welcome": "Welcome to PulseTask! 👋",
+      "add_first": "Add your first task",
+      "organize": "Organize with Projects & Labels",
+      "pomodoro": "Stay focused with the Pomodoro Timer",
+      "dark_mode": "Switch to Dark Mode 🌙",
+      "groceries": "Buy groceries 🛒",
+      "dentist": "Schedule dentist appointment",
+      "read_book": "Read a book for 30 minutes",
+      "costume": "Buy Halloween costume",
+      "pumpkins": "Decorate the house with pumpkins",
+      "playlist": "Prepare spooky playlist"
+    }
+  }
+}

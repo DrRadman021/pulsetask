@@ -1,0 +1,21 @@
+{
+  "name": "PulseTask - Modern Productivity Platform",
+  "short_name": "PulseTask",
+  "description": "Clear your mind. Organize your work with effortless focus and live task tracking.",
+  "start_url": "/app/today",
+  "display": "standalone",
+  "background_color": "#0b0e17",
+  "theme_color": "#ef4444",
+  "icons": [
+    {
+      "src": "/logo-red.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-red.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
