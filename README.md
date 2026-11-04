@@ -1,4 +1,4 @@
-# ZenTask — Clean, Fast, Intuitive Task Manager
+# PulseTask — Clean, Fast, Intuitive Task Manager
 
 A production-ready, lightning-fast task management web application inspired by Todoist and Things 3. Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, and native SQLite with zero external database dependencies.
 
@@ -43,8 +43,8 @@ ZenTask features full first-class bilingual support for **English (LTR)** and **
 
 ### 2. Installation
 ```bash
-git clone <repo-url> zentask
-cd zentask
+git clone <repo-url> pulsetask
+cd pulsetask
 npm install
 ```
 
