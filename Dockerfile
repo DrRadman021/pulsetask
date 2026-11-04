@@ -15,8 +15,7 @@ COPY . .
 # Build Next.js app
 RUN npm run build
 
-# Expose port and declare volume for persistent SQLite database
+# Expose port
 EXPOSE 3000
-VOLUME ["/app/data"]
 
 CMD ["npm", "run", "start"]
