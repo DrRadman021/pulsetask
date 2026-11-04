@@ -10,6 +10,7 @@ RUN npm ci
 COPY . .
 
 # Build Next.js app in production mode
+ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
 ENV PORT=3000
 RUN npm run build
