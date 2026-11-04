@@ -2,17 +2,16 @@ FROM node:22-alpine AS runner
 
 WORKDIR /app
 
-ENV NODE_ENV=production
-ENV PORT=3000
-
-# Install dependencies needed for build
+# Install all dependencies (including TypeScript devDependencies) needed for build
 COPY package*.json ./
 RUN npm ci
 
 # Copy application source
 COPY . .
 
-# Build Next.js app
+# Build Next.js app in production mode
+ENV NODE_ENV=production
+ENV PORT=3000
 RUN npm run build
 
 # Expose port
