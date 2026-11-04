@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { TaskService } from '@/lib/services';
 import { parseNaturalLanguageTask } from '@/lib/nlp';
